@@ -67,11 +67,7 @@ npm test
 
 ### Resultado
 
-```
- Test Files  3 passed (3)
-      Tests  14 passed (14)
-   Duration  866ms
-```
+![Tests](assets/screenshot-tests.png)
 
 ### Cobertura de escenarios
 
