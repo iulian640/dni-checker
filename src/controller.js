@@ -11,7 +11,7 @@ export function handleCalcular() {
         añadirAlHistorial('El dato introducido es incorrecto')
     } else {
         const letra = checker(Number(valor))
-        añadirAlHistorial(`${valor} → ${letra}`)
+        añadirAlHistorial(`${valor.padStart(8, '0')} → ${letra}`)
     }
 
     input.value = ''

@@ -75,5 +75,6 @@ describe('handleCalcular', () => {
         document.getElementById('dni-input').value = '0'
         handleCalcular()
         expect(document.getElementById('historial').children.length).toBe(2)
+        expect(document.getElementById('historial').textContent).toContain('00000000 → T')
     })
 })
